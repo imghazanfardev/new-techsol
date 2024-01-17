@@ -39,6 +39,11 @@ export default function Home() {
       name: 'Upwork',
       links: '/',
     },
+    
+    {
+      name: 'Fiverr',
+      links: '/',
+    },
   ];
 
   // FunFact Data

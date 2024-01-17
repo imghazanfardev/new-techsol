@@ -81,7 +81,7 @@
   position: relative;
   padding: 250px 0 170px;
   height: calc(100vh + 180px);
-  min-height: 1000px;
+  min-height: 1250px;
   .cs-hero_title {
     font-size: 120px;
     font-weight: 700;
@@ -422,7 +422,7 @@
 @media screen and (max-width: 1540px) {
   .cs-hero.cs-style1 {
     padding-top: 220px;
-    min-height: 960px;
+    min-height: 1150px;
   }
   .cs-hero.cs-style2 {
     height: 864px;
@@ -454,7 +454,7 @@
   }
   .cs-hero.cs-style1 {
     padding-top: 200px;
-    min-height: 880px;
+    min-height: 1126px;
     .cs-hero_title {
       font-size: 100px;
     }

@@ -6,23 +6,23 @@ import './logolist.scss'
 export default function LogoList() {
   const partnerLogos = [
     {
-      src: '/images/mindpeace.png', 
+      src: '/images/simplysolar.png', 
       alt:'Partner'
     },
     {
-      src: '/images/partner_2.svg', 
+      src: '/images/bigpoppa.png', 
       alt:'Partner'
     },
     {
-      src: '/images/partner_3.svg', 
+      src: '/images/handsofgrace.png', 
       alt:'Partner'
     },
     {
-      src: '/images/partner_4.svg', 
+      src: '/images/equistic.png', 
       alt:'Partner'
     },
     {
-      src: '/images/partner_5.svg', 
+      src: '/images/nocohockey.png', 
       alt:'Partner'
     }
   ]

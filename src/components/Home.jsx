@@ -71,7 +71,7 @@ export default function Home() {
       {/* Start Hero Section */}
       <Hero
         title="Ignite Your Dreams  <br/>Startup With Us!"
-        subtitle="At Techsol, elevate your brand with creative digital excellence. Unleash online presence with captivating visuals and avant-garde web development. Connect today for success."
+        subtitle="Welcome to Techsol, where innovation and creativity elevate your online presence to unprecedented heights. Our digital hub, a reservoir of unmatched talent, transforms your brand into a digital phenomenon with captivating visuals, compelling content, and avant-garde web development. Immerse yourself in a world of digital excellence, explore boundless possibilities, and stay ahead in the digital landscape. Your success story begins here. Get in touch with us today!"
         btnText="Get a Quote"
         btnLink="./contact"
         scrollDownId="#service"

@@ -51,6 +51,9 @@
         top: 0px;
         opacity: 1;
         transition-delay: 0.4s;
+        background: linear-gradient(90deg, rgba(35,183,227,1) 0%, rgba(214,65,167,1) 50%, rgba(243,78,96,1) 100%);
+        
+        
       }
       .cs-portfolio_title {
         left: 0px;
@@ -101,7 +104,7 @@
   button {
     height: 16px;
     width: 16px;
-    background-color: $accent;
+    background-color: #D641A7;
     border: 1px solid $accent;
     border-radius: 50%;
     cursor: pointer;
@@ -118,7 +121,7 @@
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%);
-      background-color: $accent;
+      background-color: #23B7E3;
     }
   }
   .slick-active {

@@ -14,7 +14,8 @@ import MovingText from '../components/MovingText';
 import LogoList from '../components/LogoList';
 import Cta from '../components/Cta';
 import VideoModal from "../components/VideoModal/index"
-import { pageTitle} from "../components/helper/index"
+import { pageTitle } from "../components/helper/index"
+import Button from './Button';
 
 export default function Home() {
   pageTitle('Home');
@@ -57,10 +58,10 @@ export default function Home() {
 
   return (
     <>
-   
+
       {/* Start Hero Section */}
       <Hero
-        title="Ignite Your Dreams  <br/>Startups With Us!"
+        title="Ignite Your Dreams  <br/>Startup With Us!"
         subtitle="At Techsol, elevate your brand with creative digital excellence. Unleash online presence with captivating visuals and avant-garde web development. Connect today for success."
         btnText="Get a Quote"
         btnLink="./contact"
@@ -69,7 +70,7 @@ export default function Home() {
         heroSocialLinks={heroSocialLinks}
         bgImageUrl="/images/newblackbg.jpg"
       />
-   
+
       {/* End Hero Section */}
 
       {/* Start FunFact Section */}
@@ -89,12 +90,11 @@ export default function Home() {
         <Div className="container">
           <Div className="row">
             <Div className="col-xl-4">
-              <SectionHeading
-                title="Services we can help you with"
-                subtitle="What Can We Do"
-                btnText="See All Services"
-                btnLink="/service"
-              />
+              <h3 className="cs-section_subtitle" style={{fontSize:"16px",color:"grey"}}>What Can We Do</h3>
+              <h2 className="cs-section_title">Services we can help you with</h2>
+              <p>Get a quick introduction and outline of our digital solutions services.</p>
+              <Spacing lg='45' md='20' />
+              <Button btnLink={"/service"} btnText={"See All Services"} />
               <Spacing lg="90" md="45" />
             </Div>
             <Div className="col-xl-8">
@@ -249,7 +249,7 @@ export default function Home() {
       <MovingText text="Our Most Honorable Companies Whom We’re Working Since A Decade! Contact Now to Be the Part of It!" />
       <Spacing lg="105" md="70" />
       {/* End MovingText Section */}
-
+        <h2 className='logo_section_title'>Some of Our Prestigious companies we’ve work with! </h2>
       {/* Start LogoList Section */}
       <Div className="container">
         <LogoList />

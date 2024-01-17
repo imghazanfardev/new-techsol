@@ -11,7 +11,7 @@ export default function Cta({title, btnText, btnLink, bgSrc, variant}) {
       <Div className="cs-shape_1" />
       <Div className="cs-shape_1" />
       <Div className="cs-cta_in">
-        <h2 className="cs-cta_title cs-semi_bold cs-m0">Hello</h2>
+        <h2 className="cs-cta_title cs-semi_bold cs-m0">Get Ahead!</h2>
         <p>Skip the wait and connect with us to get an immediate road map of your next achievement!</p>
         {btnText && (
           <>

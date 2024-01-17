@@ -15,6 +15,11 @@
   }
 }
 
+.cs-hero_title{
+  background: linear-gradient(90deg, rgba(35,183,227,1) 0%, rgba(214,65,167,1) 50%, rgba(243,78,96,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .cs-hero_social_title {
   position: relative;

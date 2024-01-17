@@ -14,7 +14,7 @@ export default function TestimonialSlider() {
         'As a client of Techsol, our online presence received a remarkable boost. Their web development turned our vision into reality, creating a user-friendly and visually stunning website that truly reflects our brand.',
       avatarName: 'Sarah Thompson',
       avatarDesignation: 'Marketing Director, GlobalTech Solutions',
-      ratings: '4',
+      ratings: '5',
     },
     {
       testimonialThumb: '/images/Testimonial2.png',
@@ -30,7 +30,7 @@ export default function TestimonialSlider() {
         "With Techsol's digital marketing expertise, our brand witnessed a significant surge. Their Google Ads and SEO strategies brought tangible results, boosting visibility, attracting leads, and elevating our business profile.",
       avatarName: 'Emily Reynolds',
       avatarDesignation: 'Chief Marketing Officer, PeakTech Enterprises',
-      ratings: '4.5',
+      ratings: '5',
     },
     {
       testimonialThumb: '/images/Testimonial5.png',
@@ -38,7 +38,7 @@ export default function TestimonialSlider() {
         "Techsol's React development is unparalleled. They seamlessly turned our app ideas into a reality. Their commitment to staying at the forefront of React trends ensures our application remains cutting-edge and user-centric.",
       avatarName: 'James Manning',
       avatarDesignation: 'CEO AT ByteCraft Innovations',
-      ratings: '3.5',
+      ratings: '5',
     },
 
     {
@@ -47,7 +47,7 @@ export default function TestimonialSlider() {
         "Techsol's SEO mastery transformed our online visibility. Our website now ranks high, thanks to their strategic approach. More traffic, and better leads – a testament to Techsol's impact on our digital success.",
       avatarName: 'Olivia Chambers',
       avatarDesignation: 'Head of Online Strategy, Visionary Ventures Ltd.',
-      ratings: '3.5',
+      ratings: '5',
     },
   ];
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (

@@ -32,8 +32,8 @@ export default function Header({ variant }) {
           <Div className="container">
             <Div className="cs-main_header_in">
               <Div className="cs-main_header_left">
-                <Link className="cs-site_branding" to="/">
-                  <img src="/images/techlogo.png" alt="Logo" />
+                <Link className="cs-site_branding" to="https://techsolllc.net/">
+                  <img src="/images/TechSol.png" alt="Logo" />
                 </Link>
               </Div>
               <Div className="cs-main_header_center">

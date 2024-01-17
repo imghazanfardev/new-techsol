@@ -9,44 +9,44 @@ export default function TestimonialSlider() {
   const [nav2, setNav2] = useState();
   const testimonialData = [
     {
-      testimonialThumb: '/images/Testimonial1.png',
+      testimonialThumb: '/images/wanda.png',
       testimonialText:
-        'As a client of Techsol, our online presence received a remarkable boost. Their web development turned our vision into reality, creating a user-friendly and visually stunning website that truly reflects our brand.',
-      avatarName: 'Sarah Thompson',
-      avatarDesignation: 'Marketing Director, GlobalTech Solutions',
+        'This was some additions to my website. He was still patient and made the necessary changes. Thanks again.',
+      avatarName: "Wandap07's",
+      avatarDesignation: 'Founder Of ISC Therapy LLC',
       ratings: '5',
     },
     {
-      testimonialThumb: '/images/Testimonial2.png',
+      testimonialThumb: '/images/sonnee.png',
       testimonialText:
-        "Techsol's UI/UX design surpassed our expectations. Their understanding of user behavior resulted in designs that not only look fantastic but also enhance the overall experience. Exceptional work!",
-      avatarName: 'Alex Rodriguez',
-      avatarDesignation: 'Creative Director, Innovate Designs',
+        "It was a pleasure working with this seller. He was professional, patient, and had good ideas. We got the website exactly as I wanted, even though I wasn't quite sure what I wanted. I appreciate that he was willing to work with my ideas and make them a reality. I would work with this seller again, and plan to! Very happy customer.",
+      avatarName: 'Sayleedae',
+      avatarDesignation: 'Founder Of Affinity Triangle',
       ratings: '5',
     },
     {
-      testimonialThumb: '/images/Testimonial3.png',
+      testimonialThumb: '/images/drluo.png',
       testimonialText:
-        "With Techsol's digital marketing expertise, our brand witnessed a significant surge. Their Google Ads and SEO strategies brought tangible results, boosting visibility, attracting leads, and elevating our business profile.",
-      avatarName: 'Emily Reynolds',
-      avatarDesignation: 'Chief Marketing Officer, PeakTech Enterprises',
+        "It takes a bit time for the communication. But eventually he delivers satisfactory work. I got one website done with him and am planning to do the second one with him.",
+      avatarName: 'Dr. Houyuan Luo',
+      avatarDesignation: 'Founder & Clinical Director at Mindpeace Psychology',
       ratings: '5',
     },
     {
-      testimonialThumb: '/images/Testimonial5.png',
+      testimonialThumb: '/images/jaqueline.png',
       testimonialText:
-        "Techsol's React development is unparalleled. They seamlessly turned our app ideas into a reality. Their commitment to staying at the forefront of React trends ensures our application remains cutting-edge and user-centric.",
-      avatarName: 'James Manning',
-      avatarDesignation: 'CEO AT ByteCraft Innovations',
+        "Very responsive! Great work",
+      avatarName: "Jacquelinelouis's",
+      avatarDesignation: 'Founder Of HealHer Jaqueline Therapeutic Services, LLC',
       ratings: '5',
     },
 
     {
-      testimonialThumb: '/images/Testimonial4.png',
+      testimonialThumb: '/images/drsunil.png',
       testimonialText:
-        "Techsol's SEO mastery transformed our online visibility. Our website now ranks high, thanks to their strategic approach. More traffic, and better leads – a testament to Techsol's impact on our digital success.",
-      avatarName: 'Olivia Chambers',
-      avatarDesignation: 'Head of Online Strategy, Visionary Ventures Ltd.',
+        " It was amazing and very valuable service",
+      avatarName: 'Dr. Sunil Kumar',
+      avatarDesignation: 'Medicine Physician at Dr. Sunil Kumar',
       ratings: '5',
     },
   ];

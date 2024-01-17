@@ -16,6 +16,7 @@ import Cta from '../components/Cta';
 import VideoModal from "../components/VideoModal/index"
 import { pageTitle } from "../components/helper/index"
 import Button from './Button';
+import ContactForm from './Contact';
 
 export default function Home() {
   pageTitle('Home');
@@ -26,10 +27,7 @@ export default function Home() {
       name: 'Facebook',
       links: '/',
     },
-    {
-      name: 'Twitter',
-      links: '/',
-    },
+  
     {
       name: 'Linkedin',
       links: '/',
@@ -282,6 +280,7 @@ export default function Home() {
         />
       </Div>
       {/* End CTA Section */}
+      <ContactForm/>
     </>
   );
 }

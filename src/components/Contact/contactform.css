@@ -1,0 +1,257 @@
+.Container__Contact__Form {
+  max-width: 1350px;
+  height: 1000px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  margin-top: 80px;
+}
+.contact_Form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+  
+}
+.contact_Form h3{
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 700;
+    text-align: left;
+    padding: 20px;
+}
+.contact_Form form{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Aligning-Fields{
+    display: flex;
+    gap: 20px;
+}
+.Aligning-Fields input{
+    width: 50%;
+}
+
+
+.contact_Form form input{
+    padding: 20px;
+    background: transparent;
+    border-left: 1px solid #30AFDF;
+    border-top: 1px solid #956CBD;
+    border-right: 1px solid #DD4496;
+    border-bottom: 1px solid #EF4C68;
+    border-radius: 5px;
+    color: var(--color-white);
+
+}
+
+button{
+   padding: 12px 2px;
+   text-transform: uppercase;
+   background: #30AFDF;
+   border: 1px solid var(--color-primary);
+   color: var(--color-bg);
+   border-radius: 5px;
+   font-weight: 600;
+}
+
+
+
+
+
+#cars{
+    background: transparent;
+    border-left: 1px solid #30AFDF;
+    border-top: 1px solid #956CBD;
+    border-right: 1px solid #DD4496;
+    border-bottom: 1px solid #EF4C68;
+    padding: 20px;
+    color: #757575;
+    border-radius: 5px;
+    width: 50%;
+}
+
+#budgets{
+    background: transparent;
+    border-left: 1px solid #30AFDF;
+    border-top: 1px solid #956CBD;
+    border-right: 1px solid #DD4496;
+    border-bottom: 1px solid #EF4C68;
+    padding: 20px;
+    color: #757575;
+    border-radius: 5px;
+}
+
+#budgets *{
+    line-height: 60px;
+    color: #757575;
+    background: var(--color-bg);
+    font-size: 15px;
+}
+
+
+#deadlines{
+    background: transparent;
+    border-left: 1px solid #30AFDF;
+    border-top: 1px solid #956CBD;
+    border-right: 1px solid #DD4496;
+    border-bottom: 1px solid #EF4C68;
+    padding: 20px;
+    color: #757575;
+    border-radius: 5px;
+}
+
+
+#deadlines *{
+    line-height: 60px;
+    color: #757575;
+    background: var(--color-bg);
+    font-size: 15px;
+}
+
+#cars * {
+    line-height: 60px;
+    color: #757575;
+    background: var(--color-bg);
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+.contact_Form form textarea {
+    color: var(--color-white);
+    font-family: sans-serif;
+    padding: 20px;
+    background: transparent;
+    border-left: 1px solid #30AFDF;
+    border-top: 1px solid #956CBD;
+    border-right: 1px solid #DD4496;
+    border-bottom: 1px solid #EF4C68;
+    border-radius: 5px;
+}
+
+
+
+.Contact__Info{
+    width: 40%;
+    text-align: left;
+}
+
+
+.Contact__Content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 25px;
+}
+
+.Contact__Content article{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Contact__Content h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+}
+.Contact__Content h4{
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.Contact__Content p {
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.Contact__Social{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 55px;
+    font-size: 22px;
+    margin-left: -25px;
+}
+.Contact__Social li{
+    
+    
+    border-radius: 50%;
+}
+.Contact__Social__Icons{
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .Container__Contact__Form{
+        padding: 55px;
+        height: 900px;
+    }
+    .Contact__Social{
+        padding: 0;
+        gap: 10px;
+    }
+
+    .Contact__Social{
+        
+        margin-left: -5px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+    .Container__Contact__Form{
+        flex-direction: column;
+        margin: 50 auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 1350px;
+     
+    }
+    .Container__Contact__Form h3{
+        text-align: center;
+    }
+    .contact_Form{
+        width: 100%;
+    }
+    
+    .Contact__Content{
+        text-align: center;
+    }
+    .Contact__Info{
+        padding-top: 30px;
+        width: 100%;
+    }
+    .Contact__Social{
+        justify-content: center;
+        align-items: center;
+    }
+    .Contact__Social__Icons{
+        font-size: 12px;
+       
+    }
+    .Contact__Social li{
+        padding: 5px 10px;
+    }
+    .Contact__Banner-Content h2{
+        font-size: 35px;
+    }
+    .Contact__Banner-Content p{
+        font-size: 12px;
+    }
+}

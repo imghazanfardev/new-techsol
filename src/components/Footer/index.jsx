@@ -46,7 +46,7 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
                 <TextWidget 
-                  logoSrc='/images/techlogo.png' 
+                  logoSrc='/images/TechSol.png' 
                   logoAlt='Logo'
                   text ='At Techsol-LLC, a US-based digital agency, we enhance your web presence, crafting custom code and effective marketing strategies for success.'
                 />

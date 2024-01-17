@@ -23,11 +23,20 @@ export default function Home() {
   // Hero Social Links
   const heroSocialLinks = [
     {
-      name: 'Behance',
+      name: 'Facebook',
       links: '/',
     },
     {
       name: 'Twitter',
+      links: '/',
+    },
+    {
+      name: 'Linkedin',
+      links: '/',
+    },
+
+    {
+      name: 'Upwork',
       links: '/',
     },
   ];
@@ -155,6 +164,7 @@ export default function Home() {
             subtitle="Latest Projects"
             variant="cs-style1 text-center"
           />
+          <p style={{textAlign:'center'}}>Explore Prominent Projects – a Glimpse into Our Exceptional Work and Unmatched Expertise.</p>
           <Spacing lg="90" md="45" />
         </Div>
         <PortfolioSlider />
@@ -246,10 +256,10 @@ export default function Home() {
 
       {/* Start MovingText Section */}
       <Spacing lg="125" md="70" />
-      <MovingText text="Our Most Honorable Companies Whom We’re Working Since A Decade! Contact Now to Be the Part of It!" />
+      {/* <MovingText text="Our Most Honorable Companies Whom We’re Working Since A Decade! Contact Now to Be the Part of It!" /> */}
       <Spacing lg="105" md="70" />
       {/* End MovingText Section */}
-        <h2 className='logo_section_title'>Some of Our Prestigious companies we’ve work with! </h2>
+        <h2 className='logo_section_title'>Some of the Our Prestigious companies we’ve work with! </h2>
       {/* Start LogoList Section */}
       <Div className="container">
         <LogoList />

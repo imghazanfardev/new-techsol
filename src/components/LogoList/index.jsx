@@ -2,10 +2,11 @@ import React from 'react'
 import Div from '../Div'
 import './logolist.scss'
 
+
 export default function LogoList() {
   const partnerLogos = [
     {
-      src: '/images/partner_1.svg', 
+      src: '/images/mindpeace.png', 
       alt:'Partner'
     },
     {

@@ -299,14 +299,13 @@ hr {
 }
 
 .cs-gradient_bg_1 {
-  background: linear-gradient(267.18deg, #161616 0%, #080808 100%);
+  background: #fff
 }
 
 .cs-text_btn {
   display: inline-flex;
   align-items: center;
   font-weight: 600;
-  color: $white;
   cursor: pointer;
   svg {
     margin-left: 15px;
@@ -677,11 +676,6 @@ label {
   .cs-seciton_heading.cs-style1 .cs-section_title::before {
     top: 1px;
   }
-}
-.cs-section_title {
-  background: linear-gradient(90deg, rgba(35,183,227,1) 0%, rgba(214,65,167,1) 50%, rgba(243,78,96,1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .cs-partner_logo_wrap {

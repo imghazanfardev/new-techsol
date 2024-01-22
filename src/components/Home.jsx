@@ -80,13 +80,14 @@ export default function Home() {
         scrollDownId="#service"
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
-        bgImageUrl="/images/newblackbg.jpg"
+        bgImageUrl="/images/heroimage2.jpg"
       />
 
       {/* End Hero Section */}
 
       {/* Start FunFact Section */}
       <div className="container">
+        
         <FunFact
           variant="cs-type1"
           title="Our fun fact"
@@ -276,7 +277,7 @@ export default function Home() {
           title="Let’s disscuse make <br />something <i>cool</i> together"
           btnText="Schedule a Meeting"
           btnLink="/contact"
-          bgSrc="/images/newblackbg.jpg"
+          // bgSrc="/images/newblackbg.jpg"
         />
       </Div>
       {/* End CTA Section */}

@@ -5,7 +5,7 @@
 .cs-funfact_wrap {
   display: flex;
   align-items: center;
-  background: linear-gradient(267.18deg, #161616 0%, #080808 100%);
+  background: #fff;
   border-radius: 15px;
   padding: 60px 80px;
   position: relative;
@@ -40,9 +40,7 @@
   h2 {
     font-size: 50px;
     margin-bottom: 20px;
-    background: linear-gradient(90deg, rgba(35,183,227,1) 0%, rgba(214,65,167,1) 50%, rgba(243,78,96,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
   }
   p {
     margin-bottom: 0;
@@ -61,6 +59,7 @@
     margin: 0 13px 0 0;
     font-size: 50px;
     line-height: 1.3em;
+    color: #000;
   }
   .cs-funfact_text {
     span {
@@ -84,7 +83,7 @@
   }
   .cs-funfact_title {
     font-size: 22px;
-    color: $ternary;
+    color: #000;
     margin: 0;
   }
 }

@@ -15,11 +15,7 @@
   }
 }
 
-.cs-hero_title{
-  background: linear-gradient(90deg, rgba(35,183,227,1) 0%, rgba(214,65,167,1) 50%, rgba(243,78,96,1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 
 .cs-hero_social_title {
   position: relative;
@@ -661,6 +657,7 @@
   .cs-hero.cs-style1 {
     .cs-hero_title {
       font-size: 42px;
+      margin-top: 65px;
       br {
         display: none;
       }
@@ -721,6 +718,16 @@
   }
   .cs-swiper_button_next {
     right: 15px;
+  }
+}
+
+
+
+@media screen and (max-width: 575px){
+  .cs-hero.cs-style1 {
+    .cs-hero_title {
+      margin-top: 150px;  
+    }
   }
 }
 

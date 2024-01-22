@@ -40,12 +40,8 @@
 .contact_Form form input{
     padding: 20px;
     background: transparent;
-    border-left: 1px solid #30AFDF;
-    border-top: 1px solid #956CBD;
-    border-right: 1px solid #DD4496;
-    border-bottom: 1px solid #EF4C68;
     border-radius: 5px;
-    color: var(--color-white);
+    color: #000
 
 }
 
@@ -65,10 +61,6 @@ button{
 
 #cars{
     background: transparent;
-    border-left: 1px solid #30AFDF;
-    border-top: 1px solid #956CBD;
-    border-right: 1px solid #DD4496;
-    border-bottom: 1px solid #EF4C68;
     padding: 20px;
     color: #757575;
     border-radius: 5px;
@@ -77,10 +69,6 @@ button{
 
 #budgets{
     background: transparent;
-    border-left: 1px solid #30AFDF;
-    border-top: 1px solid #956CBD;
-    border-right: 1px solid #DD4496;
-    border-bottom: 1px solid #EF4C68;
     padding: 20px;
     color: #757575;
     border-radius: 5px;
@@ -96,10 +84,6 @@ button{
 
 #deadlines{
     background: transparent;
-    border-left: 1px solid #30AFDF;
-    border-top: 1px solid #956CBD;
-    border-right: 1px solid #DD4496;
-    border-bottom: 1px solid #EF4C68;
     padding: 20px;
     color: #757575;
     border-radius: 5px;
@@ -131,10 +115,6 @@ button{
     font-family: sans-serif;
     padding: 20px;
     background: transparent;
-    border-left: 1px solid #30AFDF;
-    border-top: 1px solid #956CBD;
-    border-right: 1px solid #DD4496;
-    border-bottom: 1px solid #EF4C68;
     border-radius: 5px;
 }
 
@@ -185,8 +165,7 @@ button{
     margin-left: -25px;
 }
 .Contact__Social li{
-    
-    
+  
     border-radius: 50%;
 }
 .Contact__Social__Icons{

@@ -9,10 +9,14 @@ html {
   font-weight: 400;
   line-height: 1.6em;
   overflow-x: hidden;
-  background-color: $gray;
+  background-color: #fff;
+  color: #070707;
 }
 
-h1,
+h1{
+  color:#fff
+}
+
 h2,
 h3,
 h4,
@@ -25,6 +29,7 @@ h6 {
   font-weight: 600;
   line-height: 1.3em;
   font-family: 'Poppins', sans-serif;
+  color: #070707;
 }
 
 .cs-primary_font {
@@ -61,6 +66,7 @@ h6 {
 
 p {
   margin-bottom: 15px;
+  color: #070707;
 }
 
 ul {

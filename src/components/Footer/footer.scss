@@ -3,8 +3,13 @@
   padding: 95px 0 35px;
 }
 
+.cs-fooer{
+  background-color: #000;
+}
+
 .cs-footer_item {
   margin-bottom: 40px;
+  color: #fff;
   .cs-newsletter.cs-style1 {
     margin-top: 6px;
   }
@@ -13,6 +18,7 @@
 .cs-widget_title {
   font-size: 18px;
   margin-bottom: 35px;
+  color: #fff;
 }
 
 .cs-menu_widget.cs-style1 {
@@ -94,7 +100,6 @@
     padding: 7px 25px;
     border-radius: 10px;
     color: $white;
-    background: linear-gradient(90deg, rgba(35,183,227,1) 0%, rgba(214,65,167,1) 50%, rgba(243,78,96,1) 100%);
     position: absolute;
     top: 5px;
     right: 5px;

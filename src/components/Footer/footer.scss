@@ -1,6 +1,7 @@
 @import "../../scss/default/color_variable";
 .cs-fooer_main {
   padding: 95px 0 35px;
+  color: #fff;
 }
 
 .cs-fooer{
@@ -144,8 +145,11 @@
   justify-content: center;
   padding: 20px 0;
   border-top: 1px solid $border;
+  color: #fff;
+
   >* {
     padding: 4px 0;
+  
   }
 }
 
